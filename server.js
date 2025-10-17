@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const users = [{ id: 1, username: 'admin', password: 'admin' }];
+const users = [{ id: 1, username: 'admin', password: 'admin123' }];
 const SECRET = 'SUPER_SECRET_KEY';
 
 app.post('/login', (req, res) => {
